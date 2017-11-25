@@ -46,7 +46,7 @@ spec:
     spec:
       containers:
       - name: kubernetes-dashboard
-        image: registry.cn-hangzhou.aliyuncs.com/accenture_ctag/kubernetes-dashboard-amd64:v1.5.1
+        image: gcr.io/google_containers/kubernetes-dashboard-amd64:v1.5.1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9090
